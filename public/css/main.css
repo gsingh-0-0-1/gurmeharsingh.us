@@ -1,0 +1,55 @@
+body {
+	background-color: #222;
+	height: 100vh;
+}
+
+div {
+	font-family: Source Code Pro, Courier;
+	color: #eee;
+}
+
+a {
+	color: #aae;
+}
+
+.title_type {
+	left: 5vh;
+}
+
+#name {
+	position: absolute;
+	top: 45vh;
+}
+
+#name_content, #name_cursor {
+	font-size: 5vh;
+}
+
+#greeting {
+	font-size: 3vh;
+	position: relative;	
+	position: absolute;
+	top: 52vh;
+}
+
+#img_container_1 {
+	position: relative;
+	left: 5vh;
+}
+
+#img_1 {
+	position: absolute;
+	border-radius: 100%;
+	max-width: 40vh;
+	border: 0.6vh solid #a88;
+}
+
+#intro {
+	position: absolute;
+	left: 60vh;
+	font-family: Lato, Arial;
+	width: 35%;
+	font-size: 2.5vh;
+	line-height: 4vh;
+}
+

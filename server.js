@@ -9,9 +9,11 @@ const HOST = '0.0.0.0'
 const app = express();
 const server = http.createServer(app);
 
+app.use(express.static('public'))
+
 server.listen(PORT_WEB, HOST, () => console.log(`Server running on port ${PORT_WEB}`));
 
 app.get('/', (req, res) => {
-  res.send('Gurmehar Singh');
+	res.sendFile("public/templates/main.html", {root: __dirname});
 });
 
