@@ -13,43 +13,31 @@ a {
 }
 
 .title_type {
-	left: 5vh;
+	left: 2em;
 }
 
 #name {
 	position: absolute;
-	top: 45vh;
+	top: 21.5em;
 }
 
 #name_content, #name_cursor {
-	font-size: 5vh;
+	font-size: 2.3em;
 }
 
-#greeting {
-	font-size: 3vh;
-	position: relative;	
-	position: absolute;
-	top: 52vh;
+.greeting {
+	font-size: 1.5em;
 }
 
 #img_container_1 {
 	position: relative;
-	left: 5vh;
+	left: 2em;
 }
 
 #img_1 {
 	position: absolute;
 	border-radius: 100%;
-	max-width: 40vh;
+	max-width: 19.18em;
 	border: 0.6vh solid #a88;
-}
-
-#intro {
-	position: absolute;
-	left: 60vh;
-	font-family: Lato, Arial;
-	width: 35%;
-	font-size: 2.5vh;
-	line-height: 4vh;
 }
 

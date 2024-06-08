@@ -1,0 +1,53 @@
+.paratitle {
+	font-size: 1.5em;
+}
+
+
+.para {
+        position: relative;
+        left: 25em;
+        top: 3em;
+        font-family: Lato, Arial;
+        width: 52em;
+        font-size: 1.2em;
+        line-height: 1.9em;
+}
+
+.paratext {
+	font-family: Lato, Arial;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.col2 {
+	width: 23.4em;
+	margin-right: 2.5em;
+}
+
+.caption {
+	display: block;
+	text-align: center;
+	align-content: center;
+	font-size: 1em;
+	font-family: Lato, Arial;
+}
+
+#gs5 {
+	position: relative; 
+	height: 50em; 
+	left: -35em;
+	top: -10em;
+	/*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));*/
+	mask-image: radial-gradient(ellipse 60em 50em at top right, rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+
+#greenbank1 {
+	width: 100em;
+	left: -60em;
+	top: -10em;
+	position: absolute;
+	z-index: -2;
+	mask-image: radial-gradient(ellipse 500em 35em at center, rgba(0,0,0,0.6), rgba(0,0,0,0));
+}
+
