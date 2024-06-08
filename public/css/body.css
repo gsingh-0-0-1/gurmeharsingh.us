@@ -37,14 +37,14 @@
 	position: relative; 
 	height: 50em; 
 	left: -35em;
-	top: -10em;
+	top: -12em;
 	/*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));*/
-	mask-image: radial-gradient(ellipse 60em 50em at top right, rgba(0,0,0,0.7), rgba(0,0,0,0));
+	mask-image: radial-gradient(ellipse 55em 50em at top right, rgba(0,0,0,0.7), rgba(0,0,0,0));
 }
 
 #greenbank1 {
 	width: 100em;
-	left: -60em;
+	left: -67em;
 	top: -10em;
 	position: absolute;
 	z-index: -2;
