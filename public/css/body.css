@@ -33,21 +33,62 @@
 	font-family: Lato, Arial;
 }
 
-#gs5 {
-	position: relative; 
+#gs6 {
+	position: absolute; 
 	height: 50em; 
 	left: -35em;
 	top: -12em;
-	/*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));*/
-	mask-image: radial-gradient(ellipse 55em 50em at top right, rgba(0,0,0,0.7), rgba(0,0,0,0));
+	mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
 }
 
-#greenbank1 {
-	width: 100em;
-	left: -67em;
-	top: -10em;
+#ata2 {
+        position: absolute;
+        height: 50em;
+        right: 0em;
+        top: 38em;
+        mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+#vim1 {
 	position: absolute;
-	z-index: -2;
-	mask-image: radial-gradient(ellipse 500em 35em at center, rgba(0,0,0,0.6), rgba(0,0,0,0));
+	height: 50em;
+	left: -55em;
+	top: 88em;
+	filter: blur(5px)
 }
 
+#starlink_outside {
+        position: absolute;
+        height: 50em;
+        left: -55em;
+        top: 138em;
+	opacity: 0.35;
+	filter: blur(1px);
+}
+
+
+#presence {
+	position: fixed;
+	left: 2em;
+	bottom: 2em;
+	background-color: #0a0a0a;
+	width: 6.1em;
+	height: 3em;
+	border-radius: 0.3em;
+}
+
+#li_logo {
+	position: absolute;
+	top: 50%;
+	left: 0.7em;
+	transform: translate(0%, -50%);
+	width: 2em;
+}
+
+#github_logo {
+	position: absolute;
+        top: 50%;
+        left: 3.4em;
+        transform: translate(0%, -50%);
+        width: 2em;
+}
