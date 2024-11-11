@@ -28,7 +28,7 @@ a {
 
 #name {
 	position: absolute;
-	top: 21.5em;
+	top: 17.5em;
 }
 
 #name_content, #name_cursor {
@@ -36,7 +36,7 @@ a {
 }
 
 .greeting {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 #img_container_1 {
@@ -46,8 +46,8 @@ a {
 
 #img_1 {
 	position: absolute;
-	border-radius: 19.18em;
-	max-width: 19.18em;
+	border-radius: 15em;
+	max-width: 15em;
 	border: 0.5em solid rgb(61, 85, 133);
 }
 

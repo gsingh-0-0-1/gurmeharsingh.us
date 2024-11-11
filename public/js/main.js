@@ -34,9 +34,11 @@ setTimeout(() => graduallyFillText(greet_hn, "नमस्ते!"), 2300);
 setTimeout(() => graduallyFillText(greet_pn, "ਸਤ ਸ੍ਰੀ ਅਕਾਲ!"), 3000);
 setTimeout(() => graduallyFillText(greet_ur, "!آداب"), 3400);
 setTimeout(() => graduallyFillText(greet_sp, "Hola!"), 3800);
-setTimeout(() => graduallyFillText(greet_ar, "!مرحبا"), 4200);
-setTimeout(() => graduallyFillText(greet_pr, "!درود"), 4600);
+setTimeout(() => graduallyFillText(greet_la, "Salvē!"), 4200);
+setTimeout(() => graduallyFillText(greet_ar, "!مرحبا"), 4500);
+setTimeout(() => graduallyFillText(greet_pr, "!درود"), 4750);
 setTimeout(() => graduallyFillText(greet_tr, "Merhaba!"), 5000);
-setTimeout(() => graduallyFillText(greet_krn, "B rhtecp!"), 5400);
+setTimeout(() => graduallyFillText(greet_sum, "𒁲"), 5200);
+setTimeout(() => graduallyFillText(greet_krn, "B rhtecp!"), 5300);
 
 setInterval(() => toggleContent(name_cursor), 500);
