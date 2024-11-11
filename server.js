@@ -14,6 +14,6 @@ app.use(express.static('public'))
 server.listen(PORT_WEB, HOST, () => console.log(`Server running on port ${PORT_WEB}`));
 
 app.get('/', (req, res) => {
-	res.sendFile("public/templates/main.html", {root: __dirname});
+	res.sendFile("public/templates/new.html", {root: __dirname});
 });
 

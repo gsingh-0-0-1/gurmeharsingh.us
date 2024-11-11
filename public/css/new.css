@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.07vw;
+}
+
+.background-section {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;      /* Vertically centers the content */
+    justify-content: flex-start; /* Left-aligns the content */
+    color: white;
+    font-size: 1.2em;
+    text-align: left;         /* Left-aligns the text within the section */
+    padding: 20px;
+    padding-left: 30%;         /* Adds padding to the left for better readability */
+    overflow-x: wrap;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.text-content {
+    max-width: 40%;
+    position: relative;
+    font-family: Lato, Arial;
+    font-size: 1.2em;
+    line-height: 1.9em;
+    padding: 5%;
+}
+
+/* Pseudo-element for masked background */
+.background-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Places the pseudo-element behind the content */
+}
+
+/* Example background image and mask for specific sections */
+#background_intro::before {
+    background-image: url('/images/gs6.jpg');
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
+}
+
+#background_seti::before {
+    background-image: url('/images/ata1.jpg');
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
+}
+
+#background_suits::before {
+    background-image: url('/images/gs_suits_1.jpg');
+    background-position: top 20%;
+    opacity: 0.35;
+}
+
+#background3::before {
+    background-image: url('/images/vim1.png');
+    filter: blur(5px)
+}
+
+#background4::before {
+    background-image: url('/images/gs_dsai_2.jpg');
+    opacity: 0.35;
+}
+
+/* Customize further backgrounds as needed */
